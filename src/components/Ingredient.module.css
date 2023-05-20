@@ -1,0 +1,10 @@
+.ingredientImage {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10px;
+    border: 1px solid #acacac;
+}
+.ingredientItem {
+    --padding-top: 1rem;
+    --padding-bottom: 1rem;
+}
