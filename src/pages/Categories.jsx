@@ -69,7 +69,7 @@ const Categories = () => {
 			</IonHeader>
 			<IonContent fullscreen>
                 <div className={ styles.searchArea }>
-                    <IonSearchbar className="ion-justify-content-center" placeholder="Try 'Chicken Piccata'" onClick={ () => router.push("/search") } />
+                    <IonSearchbar className="ion-justify-content-center" placeholder="Generate a recipe with Chef GPT" onClick={ () => router.push("/search") } />
                 </div>
 
 				<IonGrid>
