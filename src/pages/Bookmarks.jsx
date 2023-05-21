@@ -1,4 +1,4 @@
-import { IonBackButton, IonButtons, IonCol, IonContent, IonHeader, IonImg, IonList, IonNote, IonPage, IonRow, IonText, IonTitle, IonToolbar } from '@ionic/react';
+import { IonBackButton, IonGrid,IonButton,IonButtons, IonCol, IonContent, IonHeader, IonImg, IonList, IonNote, IonPage, IonRow, IonText, IonTitle, IonToolbar } from '@ionic/react';
 import { RecipeListItem } from '../components/RecipeListItem';
 
 import { useStoreState } from "pullstate";
@@ -14,9 +14,17 @@ const Bookmarks = () => {
 			<IonHeader>
 				<IonToolbar>
                     <IonButtons slot="start">
-                        <IonBackButton text="Categories" />
+                        <IonBackButton defaultHref="/" text="Categories" />
                     </IonButtons>
-					<IonTitle>Bookmarks</IonTitle>
+					<IonGrid>
+						<IonRow className="toolbar-title-container">
+						<IonCol size="11" className="ion-text-center">
+							<IonButton routerLink="/" fill="clear" className="toolbar-title">
+								Bookmarks
+							</IonButton>
+						</IonCol>
+						</IonRow>
+					</IonGrid>
 				</IonToolbar>
 			</IonHeader>
 			<IonContent fullscreen>

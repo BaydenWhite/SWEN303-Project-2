@@ -79,18 +79,25 @@ const Recipe = () => {
 		<IonPage ref={ pageRef }>
 			<IonHeader>
 				<IonToolbar>
-					<IonTitle>View Recipe</IonTitle>
 					<IonButtons slot="start">
-						<IonBackButton text={ fromSearch ? "Search" : fromBookmarks ? "Bookmarks" : "Recipes" } color="main" />
+						<IonBackButton defaultHref="/" text={ fromSearch ? "Search" : fromBookmarks ? "Bookmarks" : "Recipes" || "Back" } color="main" />
 					</IonButtons>
-
+					<IonGrid>
+						<IonRow className="toolbar-title-container">
+						<IonCol size="12" className="ion-text-center">
+							<IonButton routerLink="/" fill="clear" className="toolbar-title">
+							Recipe App
+							</IonButton>
+						</IonCol>
+						</IonRow>
+					</IonGrid>
 					<IonButtons slot="end">
 						<IonButton onClick={ addBookmark }>
 							<IonIcon icon={ bookmarks.includes(recipe) ? bookmark : bookmarkOutline } />
 						</IonButton>
 					</IonButtons>
-				</IonToolbar>
-			</IonHeader>
+					</IonToolbar>
+				</IonHeader>
 			<IonContent fullscreen>
 
 				<div className={ styles.headerImage }>

@@ -17,36 +17,48 @@ const Search = () => {
 	});
 
     const search = async () => {
-
-        showLoader({
-            cssClass: "customLoader",
-            message: "Searching...",
-            duration: 9999999,
-            spinner: "dots"
-        });
-
-        const searchTerm = searchRef.current.value;
-        const data = await performSearch(searchTerm);
-
-        setSearchResults(data.hits);
-
-        setTimeout(() => {
-            
-            hideLoader();
-        }, 300);
+        try {
+            showLoader({
+                cssClass: "customLoader",
+                message: "Searching...",
+                duration: 9999999,
+                spinner: "dots"
+            });
+    
+            const searchTerm = searchRef.current.value;
+            const data = await performSearch(searchTerm);
+    
+            setSearchResults(data.hits);
+        } catch (error) {
+            console.error(error);
+            // Consider adding error handling here.
+        } finally {
+            setTimeout(() => {
+                hideLoader();
+            }, 300);
+        }
     }
 
     return (
 
         <IonPage>
             <IonHeader>
-                <IonToolbar>
-                    <IonTitle>Search Recipes</IonTitle>
+				<IonToolbar>
                     <IonButtons slot="start">
-                        <IonBackButton color="main" text="Categories" />
+                        <IonBackButton defaultHref="/" text="Categories" />
                     </IonButtons>
-                </IonToolbar>
-            </IonHeader>
+					<IonGrid>
+						<IonRow className="toolbar-title-container">
+						<IonCol size="11" className="ion-text-center">
+							<IonButton routerLink="/" fill="clear" className="toolbar-title">
+								Search Recipes
+							</IonButton>
+						</IonCol>
+						</IonRow>
+					</IonGrid>
+                    
+				</IonToolbar>
+			</IonHeader>
 
             <IonContent>
                 <div className={ styles.searchArea }>
