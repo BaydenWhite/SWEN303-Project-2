@@ -1,9 +1,33 @@
-const APP_ID = "ea1d37d5";
-const APP_KEY = "fd382a172ba8d6668c0430dc9c14a181";
+import axios from 'axios';
+require('dotenv').config();
+
+const API_KEY = process.env.OPENAI_API_KEY;
+
 
 export const performSearch = async searchTerm => {
-
-	const response = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${ searchTerm }&app_id=${ APP_ID }&app_key=${ APP_KEY }`);
-	const data = await response.json();
-	return data;
+    try {
+        const response = await axios.post(
+            'https://api.openai.com/v1/engines/davinci-codex/completions',
+            {
+                prompt: `You are Chef GPT, an AI assistant for creating great and detailed recipes, a user is sending you the following request, please return a recipe including step by steps instructions, ingredients and a breakdown of the macronutrients and calorie information: ${searchTerm}`,
+                max_tokens: 200,
+                temperature: 0.6
+            },
+            {
+                headers: {
+                    'Authorization': `Bearer ${API_KEY}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        if (response.data.choices && response.data.choices[0] && response.data.choices[0].text) {
+            return { hits: [{ recipe: { label: searchTerm, ingredientLines: response.data.choices[0].text.split("\n") } }] };
+        } else {
+            throw new Error("No response from OpenAI API");
+        }
+    } catch (error) {
+        console.error(error);
+        throw error;
+    }
 }
