@@ -11,6 +11,10 @@ Changes implemented by various team members include:
   - UI changes, with the additon of a middle header
 - "Chef GPT" replacing old search page
 
+changes for search are in: search.jsx and util.js 
+
+changes for back button etc are in : src/theme/variables.css and src/pages/ bookmarks.jsx, search.jsx, category.jsx and recipe.jsx
+
 ![alt text](https://github.com/BaydenWhite/SWEN303-Project-2/blob/main/pics/Screenshot%202023-05-21%20223233.png?raw=true)
 
 ![alt text](https://github.com/BaydenWhite/SWEN303-Project-2/blob/main/pics/Screenshot%202023-05-21%20223253.png?raw=true)
