@@ -1,0 +1,106 @@
+Persona:
+Name: Alex Rodriguez
+Age: 20
+Occupation: College student
+
+Goals: 
+
+Monitor daily calorie intake to support fitness goals.
+Find budget-friendly and time-efficient meal options that align with a busy student   schedule.
+Discover recipes that require minimal cooking skills and can be prepared quickly.
+Reduce food waste by utilizing existing ingredients and avoiding unnecessary purchases.
+
+Scenarios:
+
+Scenario 1: Calorie Tracking
+Alex is dedicated to maintaining a healthy lifestyle and wants to track their daily calorie intake to support their fitness goals. They are searching for a recipe app that provides accurate nutritional information for each meal. It is important to Alex that the app offers reliable calorie and macronutrient estimations to help them make informed dietary choices.
+
+Scenario 2: Budget-Friendly and Time-Efficient Meals
+As a college student on a tight budget, Alex needs a recipe app that suggests affordable meal options. They have limited time between classes, assignments, and extracurricular activities, so they require recipes that can be prepared quickly. It is crucial for the app to provide cost-effective meal ideas that fit within their limited budget and time constraints.
+
+Scenario 3: Utilizing Existing Ingredients
+Alex often finds themselves with leftover ingredients in their pantry and fridge. They want a recipe app that can suggest creative and tasty meal ideas based on the ingredients they already have. By utilizing these existing ingredients, the app should help Alex reduce food waste and avoid unnecessary grocery purchases, contributing to their budget-conscious approach.
+
+
+---
+
+
+Persona:
+
+Lisa Thompson - The University Student with Disabilities
+Background: Lisa is a 20-year-old university student with visual impairments. She loves cooking and wants to explore new recipes despite her disability. She uses screen reader software and relies on accessible features to navigate digital platforms effectively.
+Goals: Lisa's primary goal is to find a recipe app that offers a seamless and accessible cooking experience. She wants an app with inclusive features, clear instructions, and a user-friendly interface that accommodates her visual impairments.
+
+Scenarios and Goals:
+
+Scenario 1: Lisa needs an app with accessible features for navigation and usability.
+
+Lisa's Goal: Lisa wants the app to have accessibility features like compatibility with screen reader software, proper labeling of buttons and controls, and high-contrast text for improved visibility. The app should prioritize accessibility by ensuring proper coding standards, utilizing semantic structure, providing alternative text for images, and offering compatibility with screen readers. It should also have adjustable text sizes and color contrast options to accommodate different visual impairments.
+[12:19 AM]
+Scenario 2: Lisa needs clear and concise cooking instructions that are accessible to her.
+
+Lisa's Goal: She wants the app to provide clear and concise cooking instructions that are compatible with her screen reader software and are easy to follow. The app should present recipe instructions in a structured format with proper headings, paragraphs, and bullet points. It should ensure that the instructions are compatible with screen readers, utilizing appropriate text-to-speech conversion and avoiding complex or ambiguous language.
+
+
+Scenario 3: Lisa wants to discover recipes based on available ingredients.
+
+Lisa's Goal: Lisa wants the app to suggest recipes based on the ingredients she has on hand to reduce food waste and maximize her resources. The app should have a feature that allows Lisa to input the ingredients she has available and provides recipe recommendations based on those ingredients. It should offer flexible search filters and generate relevant recipes that utilize the ingredients she has.
+
+
+---
+
+Persona:
+Name: Emily Johnson
+Age: 30
+Occupation: Graphic design student
+
+Goals:
+
+Exploring Plant-Based Diet: Emily is interested in adopting a plant-based diet to improve her overall health and reduce her environmental footprint. She is searching for a recipe app that specializes in plant-based recipes and provides a wide variety of delicious and nutritious meal options. Emily wants the app to offer creative plant-based recipes that can help her transition smoothly to a more sustainable and plant-centric eating lifestyle.
+
+Meal Prep and Time Management: As a busy graphic design student, Emily often faces tight deadlines and long working hours. She needs a recipe app that can assist her in meal planning and prepping. The app should offer meal prep-friendly recipes that can be prepared in advance and stored for quick and convenient meals throughout the week. Emily is looking for time-saving tips and strategies to optimize her meal preparation process.
+
+Allergen-Friendly Recipes: Emily has recently discovered some food allergies and sensitivities, including gluten and dairy. She wants a recipe app that caters to her allergen restrictions and provides a variety of gluten-free and dairy-free recipe options. Emily needs the app to offer allergen-friendly substitutes and alternatives to create flavorful meals that align with her dietary needs.
+
+Scenarios:
+
+Scenario 1: Plant-Based Recipe Collection
+Emily is eager to explore new plant-based recipes and expand her culinary horizons. She is searching for a recipe app that offers an extensive collection of plant-based recipes, ranging from breakfast ideas to satisfying dinners. The app should provide detailed instructions, ingredient lists, and nutritional information for each recipe. Emily wants to find diverse and flavorful plant-based meals that can inspire her cooking journey.
+
+Scenario 2: Streamlined Meal Prep and Planning
+With her demanding studies, Emily needs assistance in streamlining her meal preparation and planning process. She wants a recipe app that offers customizable meal plans tailored to her dietary preferences and schedule. The app should include features such as automated grocery lists, batch cooking suggestions, and tips for efficient meal prep. Emily aims to save time and energy by having a well-organized approach to her meals.
+
+Scenario 3: Allergen-Friendly Alternatives
+Emily wants to find a recipe app that understands her food allergies and provides suitable alternatives. She is looking for a range of gluten-free and dairy-free recipes that are not only healthy but also satisfying and delicious. The app should offer ingredient substitutions, tips for baking without gluten or dairy, and options for accommodating multiple allergens. Emily is excited to discover allergen-friendly recipes that allow her to enjoy her favorite dishes without compromising her health
+
+
+---
+
+
+Name: Mark Davids
+Age: 22
+
+Background: Mark recently graduated from university and has started living alone in a small apartment. As a recent graduate, Mark is navigating the transition to independent living and is mindful of the financial constraints that come with it. With limited income and expenses to manage, Mark is particularly concerned about finding affordable meals that fit within a tight budget.
+
+Goals and Motivations:
+
+    Budget-Friendly Meals: Mark's primary goal is to discover recipes that are affordable and fit within a limited budget. Finding cost-effective meal options helps ensure financial stability while enjoying delicious and nutritious food.
+    Budgeting Tips: Mark is motivated to learn effective strategies for grocery shopping on a budget. Practical advice on meal planning, ingredient substitutions, and minimizing food waste is valuable for managing expenses and making the most of available resources.
+
+Scenarios:
+
+ Leftover management
+
+    User has leftover ingredients from previous meals.
+    User searches for recipes using the leftover ingredients.
+    User finds recipes that incorporate the available ingredients.
+    User selects a recipe and prepares a meal using the leftovers.
+
+ Budget Based Searching
+
+    User opens the recipe application for the first time.
+    User navigates to the "Budget-Friendly" or "Affordable Meals" section.
+    User searches for recipes that match his budget constraints.
+    User saves a few recipes that seem interesting and cost-effective.
+
+
